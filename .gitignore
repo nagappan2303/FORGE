@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.DS_Store
+
+# run artifacts
+*.sqlite
+*.pickle
+# ...but the bundled demonstration datasets must ship
+!examples/data/*.pickle
+out/
+examples/out_li_ec/
+runs/
+workdir*/
+*_chunks/
+*_outputs/
+*_logs/
+*.out
+*.error
+slurm-*.log
+
+# editor and rescue copies
+*.bak
+*.bak_*
+*.orig

@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "forge"
+version = "1.0.0"
+description = "Flux-driven seeded iterative chemical-reaction-network constructor"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{ name = "FORGE contributors" }]
+dependencies = [
+    "numpy",
+    "scipy",
+    "pandas",
+    # <3.4: newer releases refuse WL-hashing of MultiGraphs, and the
+    # species hashes in bundled/production pickles were computed with 3.x
+    "networkx>=3.1,<3.4",
+    "pymatgen",
+    "monty",
+    "rdkit",
+    "sympy",
+    "ase",
+    "matplotlib",
+    "dwave-neal",
+    "openbabel-wheel; platform_system != 'Windows'",
+]
+
+[project.optional-dependencies]
+viz = ["pycairo"]
+
+[project.scripts]
+forge = "forge.run_seeded:main"
+
+[tool.setuptools.packages.find]
+include = ["forge*", "chemistry_lib*", "aam_src*"]
+exclude = ["tools*", "examples*", "tests*"]
