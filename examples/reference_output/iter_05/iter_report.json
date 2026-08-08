@@ -1,0 +1,62 @@
+{
+  "iteration": 5,
+  "core_size_in": 21,
+  "core_size_out": 25,
+  "new_core_ids_this_iter": [
+    48,
+    52,
+    54,
+    57,
+    67,
+    73,
+    74,
+    175,
+    196,
+    235,
+    243,
+    246,
+    515
+  ],
+  "bucket_stats": {
+    "n_rows": 7735,
+    "n_unary": 13,
+    "n_pair": 7722,
+    "n_compositions": 433
+  },
+  "n_reactions_cumulative": 6621,
+  "n_reactions_new_this_iter": 4681,
+  "n_species_in_rn_cumulative": 429,
+  "flux_summary": {
+    "n_species_touched": 81,
+    "total_events": 100742,
+    "max_touched_species": 66,
+    "max_touched_count": 10992
+  },
+  "kmc_stats": {
+    "backend": "gmc",
+    "rc": 0
+  },
+  "gen_stats": {
+    "n_tested": 6304333,
+    "n_kept": 4681,
+    "n_reactions": 4681,
+    "n_aam_rejected": 556,
+    "n_dup_skipped": 0,
+    "by_rcount": {
+      "1->1": 12,
+      "1->2": 6,
+      "2->2": 4592,
+      "2->1": 71
+    },
+    "n_duplicate_groups": 0,
+    "n_skipped_nocore": 0,
+    "elapsed_sec": 95.09442710876465
+  },
+  "n_promoted": 4,
+  "promoted_ids": [
+    142,
+    519,
+    1,
+    43
+  ]
+}

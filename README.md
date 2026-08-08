@@ -74,8 +74,10 @@ promoted; the loop stops on its own when an iteration promotes no new
 species and ends with a summary of the generated network. Outputs land
 in `examples/out_li_ec/`: the network (`rn.sqlite`), `final_summary.json`
 with the full config and per-iteration statistics, and the per-iteration
-folders. For product and pathway reports on a converged network, use
-`tools/production_kmc.py` as described below. The promotion threshold
+folders. A complete reference output of this run ships in
+`examples/reference_output/` for comparison. For product and pathway
+reports on a converged network, use `tools/production_kmc.py` as
+described below. The promotion threshold
 epsilon defaults to `1e-2` here; pass `--eps` to explore other values
 (smaller epsilon grows a larger network and takes longer).
 

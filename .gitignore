@@ -23,3 +23,8 @@ slurm-*.log
 *.bak
 *.bak_*
 *.orig
+
+# committed reference output of the example (examples/out_li_ec itself stays
+# ignored so a fresh clone's run starts clean instead of resuming this one)
+!examples/reference_output/**
+examples/reference_output/**/.DS_Store

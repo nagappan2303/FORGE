@@ -1,0 +1,315 @@
+{
+  "iteration": 10,
+  "core_size": 32,
+  "core_ids_sorted": [
+    1,
+    25,
+    27,
+    43,
+    45,
+    48,
+    52,
+    54,
+    57,
+    66,
+    67,
+    69,
+    72,
+    73,
+    74,
+    81,
+    86,
+    102,
+    118,
+    142,
+    152,
+    175,
+    196,
+    227,
+    235,
+    243,
+    246,
+    260,
+    515,
+    517,
+    519,
+    542
+  ],
+  "per_iter_promoted": [
+    [
+      86,
+      542
+    ],
+    [
+      66
+    ],
+    [
+      72
+    ],
+    [
+      27,
+      69,
+      517,
+      81
+    ],
+    [
+      52,
+      74,
+      54,
+      243,
+      73,
+      175,
+      515,
+      235,
+      57,
+      196,
+      246,
+      67,
+      48
+    ],
+    [
+      142,
+      519,
+      1,
+      43
+    ],
+    [
+      260,
+      45,
+      102
+    ],
+    [
+      118,
+      25
+    ],
+    [
+      227
+    ],
+    [
+      152
+    ],
+    []
+  ],
+  "per_iter_flux_summary": [
+    {
+      "n_species_touched": 3,
+      "total_events": 15000,
+      "max_touched_species": 66,
+      "max_touched_count": 5000
+    },
+    {
+      "n_species_touched": 4,
+      "total_events": 25000,
+      "max_touched_species": 66,
+      "max_touched_count": 10000
+    },
+    {
+      "n_species_touched": 8,
+      "total_events": 38210,
+      "max_touched_species": 66,
+      "max_touched_count": 10000
+    },
+    {
+      "n_species_touched": 49,
+      "total_events": 71791,
+      "max_touched_species": 66,
+      "max_touched_count": 11256
+    },
+    {
+      "n_species_touched": 81,
+      "total_events": 100742,
+      "max_touched_species": 66,
+      "max_touched_count": 10992
+    },
+    {
+      "n_species_touched": 88,
+      "total_events": 106386,
+      "max_touched_species": 66,
+      "max_touched_count": 11026
+    },
+    {
+      "n_species_touched": 99,
+      "total_events": 108820,
+      "max_touched_species": 66,
+      "max_touched_count": 11060
+    },
+    {
+      "n_species_touched": 97,
+      "total_events": 108845,
+      "max_touched_species": 66,
+      "max_touched_count": 11006
+    },
+    {
+      "n_species_touched": 98,
+      "total_events": 109105,
+      "max_touched_species": 66,
+      "max_touched_count": 11008
+    },
+    {
+      "n_species_touched": 96,
+      "total_events": 109067,
+      "max_touched_species": 66,
+      "max_touched_count": 11010
+    }
+  ],
+  "per_iter_bucket_stats": [
+    {
+      "n_rows": 1217,
+      "n_unary": 2,
+      "n_pair": 1215,
+      "n_compositions": 163
+    },
+    {
+      "n_rows": 607,
+      "n_unary": 1,
+      "n_pair": 606,
+      "n_compositions": 82
+    },
+    {
+      "n_rows": 606,
+      "n_unary": 1,
+      "n_pair": 605,
+      "n_compositions": 82
+    },
+    {
+      "n_rows": 2414,
+      "n_unary": 4,
+      "n_pair": 2410,
+      "n_compositions": 209
+    },
+    {
+      "n_rows": 7735,
+      "n_unary": 13,
+      "n_pair": 7722,
+      "n_compositions": 433
+    },
+    {
+      "n_rows": 2346,
+      "n_unary": 4,
+      "n_pair": 2342,
+      "n_compositions": 273
+    },
+    {
+      "n_rows": 1749,
+      "n_unary": 3,
+      "n_pair": 1746,
+      "n_compositions": 211
+    },
+    {
+      "n_rows": 1161,
+      "n_unary": 2,
+      "n_pair": 1159,
+      "n_compositions": 157
+    },
+    {
+      "n_rows": 579,
+      "n_unary": 1,
+      "n_pair": 578,
+      "n_compositions": 80
+    },
+    {
+      "n_rows": 578,
+      "n_unary": 1,
+      "n_pair": 577,
+      "n_compositions": 80
+    }
+  ],
+  "per_iter_rxn_counts": [
+    160,
+    93,
+    282,
+    1405,
+    4681,
+    1133,
+    289,
+    213,
+    162,
+    85
+  ],
+  "promoted_at": {
+    "86": 0,
+    "542": 0,
+    "66": 1,
+    "72": 2,
+    "27": 3,
+    "69": 3,
+    "517": 3,
+    "81": 3,
+    "52": 4,
+    "74": 4,
+    "54": 4,
+    "243": 4,
+    "73": 4,
+    "175": 4,
+    "515": 4,
+    "235": 4,
+    "57": 4,
+    "196": 4,
+    "246": 4,
+    "67": 4,
+    "48": 4,
+    "142": 5,
+    "519": 5,
+    "1": 5,
+    "43": 5,
+    "260": 6,
+    "45": 6,
+    "102": 6,
+    "118": 7,
+    "25": 7,
+    "227": 8,
+    "152": 9
+  },
+  "config": {
+    "mol_entries_pickle": "/Users/nagappann/Desktop/FORGE Paper Code and Results/FORGE-github/examples/data/li_ec_test.pickle",
+    "out_dir": "/Users/nagappann/Desktop/FORGE Paper Code and Results/FORGE-github/examples/out_li_ec",
+    "electron_free_energy": -1.4,
+    "seed_species": [
+      86,
+      542
+    ],
+    "initial_state_counts": {
+      "86": 100,
+      "542": 1500
+    },
+    "seed_species_query": null,
+    "seed_species_xyz": null,
+    "species_json_path": null,
+    "solvation_environment": null,
+    "temperature": 298.15,
+    "max_iterations": 12,
+    "promotion_flux_metric": "produced",
+    "promotion_flux_fraction": 0.01,
+    "convergence_new_species_threshold": 0,
+    "exploratory_initial_count": 0,
+    "exploratory_only_core_reactants": true,
+    "n_simulations": 50,
+    "step_cutoff": 20000,
+    "kmc_seed": 1000,
+    "gmc_binary_path": "/Users/nagappann/Desktop/FORGE Paper Code and Results/FORGE-github-local-only/GMC",
+    "gmc_thread_count": 12,
+    "reaction_tree": "default",
+    "enforce_reactant_in_core": true,
+    "commit_freq": 5000,
+    "progress_every": 50000,
+    "enumeration_backend": "fork",
+    "mpi_launcher": "srun -n {ranks} {cmd}",
+    "mpi_ranks": 0,
+    "enumeration_index": "memory",
+    "nproc": 1,
+    "pool_chunksize": 1,
+    "aam_mode": "inline",
+    "aam_filter": true,
+    "aam_timeout_sec": 120,
+    "aam_keep_on_timeout": true,
+    "aam_cache_path": null,
+    "aam_pre_filter": true,
+    "prefilter_bond_delta_cutoff": 3,
+    "iter_wall_timeout_sec": 0,
+    "iter_progress_log_sec": 300,
+    "pathway_ev_cutoff": 4.0,
+    "n_pathways_per_sink": 100,
+    "end_of_run_reports": false,
+    "seed": 42
+  }
+}
