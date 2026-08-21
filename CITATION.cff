@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite it using the metadata below.
+  A methods article describing FORGE is under review; this file will be
+  updated with the article citation upon publication.
+title: "FORGE: Flux-Orchestrated Reaction Generation Engine"
+type: software
+authors:
+  - family-names: "Nataraja Chockalingam"
+    given-names: "Nagappan"
+repository-code: "https://github.com/nagappan2303/FORGE"
